@@ -1,0 +1,21 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+    min-height: 100%;
+}
+
+.decor{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+}
+
+.page{
+    flex: 1 1 auto;
+    pointer-events: none;
+}
+
+body{
+    background-color: #F8F8F8;
+}
